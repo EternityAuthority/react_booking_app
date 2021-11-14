@@ -77,6 +77,14 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .import-export {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
   
   .book {
     margin: 10px;

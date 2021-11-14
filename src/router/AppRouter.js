@@ -6,7 +6,6 @@ import BooksList from '../components/BooksList';
 import useLocalStorage from '../hooks/useLocalStorage';
 import EditBook from '../components/EditBook';
 import BooksContext from '../context/BooksContext';
-// import { Redirect } from 'react-router';
 
 const AppRouter = () => {
     const [books, setBooks] = useLocalStorage('books', []);
