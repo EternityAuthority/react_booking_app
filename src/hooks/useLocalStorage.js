@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+// use localstorage
 const useLocalStorage = (key, initialValue) => {
   const [value, setValue] = useState(() => {
     try {
